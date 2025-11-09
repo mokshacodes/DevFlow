@@ -45,6 +45,6 @@ The goal of this project was to practice full-stack Java development fundamental
 
 Here is DevFlow running in the terminal:
 
-![DevFlow CLI Screenshot](assets/devflow-cli.png)
+![DevFlow CLI Screenshot](devflow-cli.png)
 
 > The screenshot shows DevFlow’s startup prompt and example commands for adding and listing tasks.
