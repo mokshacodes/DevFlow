@@ -19,8 +19,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         System.out.println(
-                "\n⚙️  DevFlow — track builds, bugs, and tasks efficiently\n" +
-                        "Type 'help' for commands.  (projects: general)\n"
+                "\n⚙️DevFlow: Track builds, bugs, and tasks efficiently!\n" +
+                        "Type 'help' for commands. (projects: general)\n"
         );
 
         TaskManager tm = TaskManager.getInstance();

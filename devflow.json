@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "name": "general",
+      "tasks": []
+    },
+    {
+      "name": "backend",
+      "tasks": [
+        {
+          "id": "0ab4fed7-45aa-443e-983a-2ab0b6b11737",
+          "title": "\"Fix",
+          "priority": "HIGH",
+          "label": "bug",
+          "projectName": "backend",
+          "due": "2025-11-15",
+          "completed": false,
+          "createdAt": "2025-11-09"
+        }
+      ]
+    }
+  ]
+}
