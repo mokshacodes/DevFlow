@@ -24,10 +24,8 @@ public class TaskManagerTest {
     void addTaskIntoProject() {
         TaskFactory f = new TaskFactory();
         TaskManager tm = TaskManager.getInstance();
-
         Task t = f.create("Implement auth", Priority.HIGH, Label.feature, "backend", LocalDate.now());
         tm.getOrCreateProject("backend").add(t);
-
         Project p = tm.getOrCreateProject("backend");
         assertEquals(1, p.getTasks().size());
         assertEquals("Implement authorization", p.getTasks().get(0).getTitle());
