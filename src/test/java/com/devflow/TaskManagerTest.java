@@ -30,7 +30,7 @@ public class TaskManagerTest {
 
         Project p = tm.getOrCreateProject("backend");
         assertEquals(1, p.getTasks().size());
-        assertEquals("Implement auth", p.getTasks().get(0).getTitle());
+        assertEquals("Implement authorization", p.getTasks().get(0).getTitle());
         assertEquals(Label.feature, p.getTasks().get(0).getLabel());
     }
 }

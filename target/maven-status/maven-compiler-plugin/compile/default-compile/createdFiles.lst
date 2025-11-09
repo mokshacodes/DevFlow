@@ -1,0 +1,8 @@
+com/devflow/core/TaskManager.class
+com/devflow/model/Priority.class
+com/devflow/model/Task.class
+com/devflow/model/Project.class
+com/devflow/model/Label.class
+com/devflow/Main.class
+com/devflow/core/TaskFactory.class
+com/devflow/persistence/Storage.class
