@@ -149,13 +149,16 @@ public class Main {
 
     private static void printProject(Project p) {
         System.out.println("\n[Project] " + p.getName());
+
         if (p.getTasks().isEmpty()) {
             System.out.println("  (no tasks)\n");
             return;
         }
+
         for (Task t : p.getTasks()) {
             printTask(t);
         }
+
         System.out.println();
     }
 
